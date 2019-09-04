@@ -1,0 +1,879 @@
+*{
+    font-family: 'Tajawal', sans-serif;
+}
+
+
+/** upper header **/
+
+
+.upper-header{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.upper-header .logo-img{
+        margin-top: -35px;
+
+}
+
+.upper-header .social{
+    list-style: none;
+}
+
+.upper-header .social li {
+    float: left;
+    margin-right: 5px;
+}
+
+.upper-header .social img{
+    width: 76%;
+    margin-right: -15px;
+    cursor: pointer
+}
+
+.upper-header .logo{
+    width: 30%;
+    margin-top: 20px;
+    float: right;
+}
+
+/** start header **/
+
+header{
+    min-height: 480px;
+    background: url("../images/header-bg.png") no-repeat center center fixed ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+    
+}
+
+header .navbar{
+  
+    min-height:30px;
+    
+}
+
+header .overlay{
+    background-color: rgba(0,0,0,.2)
+}
+
+ .navbar .nav-item .nav-link{
+    color: #FFF;
+    font-size: 18px; 
+}
+
+header .navbar .search{
+    width: 50%;
+}
+header .navbar .search input{
+   width: 90%;
+   margin-left: 20px;
+}
+header .navbar .search button{
+    border: none;
+    background: none;
+    margin-left: -45px;
+}
+
+header .navbar .search button i{
+    color: #888c8b;
+    cursor: pointer;
+    margin-left: -30px;
+}
+
+.header-info{
+    margin-top: 40px;
+    margin-right: 10%;
+}
+.header-info .header-disc{
+    width: 33%;
+    font-size: 30px;
+    float: right;
+    font-weight: 500;
+    margin-right: 33px;
+}
+
+
+.header-info .header-link{
+    margin-top: 170px;
+    position: absolute;
+    margin-left: 836px;
+    font-size: 20px;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 5px 30px;
+    margin-left: 73%;
+    font-weight: 700;
+    cursor: pointer
+}
+
+
+
+/** start products **/
+
+.products .products-info{
+    margin-top: 40px
+}
+
+.products .products-info .except-img{
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.products .products-img{
+    width: 20%
+}
+.products .products-header{
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.products .products-list{
+   list-style: none;
+    font-size: 19px;
+    margin-right: 55px;
+    margin-top: 20px;
+}
+
+.products .products-list li::before{
+    content: "*";
+    padding-left: 5px;
+}
+
+
+/** products bannar **/
+
+.products-bannar{
+    background: url("../images/product-bannar.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 380px;
+    margin-top: 30px;
+    color: #FFF
+}
+
+.products-bannar .bannar-info {
+   padding-top: 60px;
+}
+
+.products-bannar .bannar-info .bannar-disc{
+    margin-top: 80px;
+}
+
+.products-bannar .bannar-info .info-header{
+    color: #995437;
+    font-size: 40px;
+}
+
+.products-bannar .bannar-info .info-disc{
+    color: #d1dbdb;
+    font-size: 20px;
+}
+
+/**  serviecs **/
+
+.serviecs .serviecs-header{
+    padding-top: 30px;
+}
+
+.serviecs .serviecs-info{
+    margin-top: 10px;
+}
+
+.serviecs .serviecs-img{
+    width: 100%;
+}
+
+.serviecs .serviecs-item{
+    width: 70%
+}
+
+.serviecs-info .serviecs-item-h{
+    font-size: 24px;
+}
+
+.serviecs-info div:first-child , 
+.serviecs-info div:nth-child(3),
+.serviecs-info div:last-child
+{
+    background-color: #dedede;
+    border-radius: 15px;
+}
+
+
+/** contact **/
+
+.contact{
+    background: url("../images/contact-bg.png") center center no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 1000px;
+    margin-bottom: 60px;
+
+}
+.contact .contact-header{
+    color: #FFF;
+    padding-top: 60px;
+    font-size: 70px;
+}
+
+.contact .contact-disc{
+    color: #FFF;
+    font-size: 20px;
+}
+
+.contact .contact-form{
+    margin-top: 100px;
+}
+
+.contact .contact-form input{
+    background: none;
+    border: none;
+    border-radius: 0;
+    color: #8d8d8f;
+    border-bottom: 1px solid #8d8d8f;
+    outline: 0;
+    overflow:hidden;
+    margin-bottom: 60px;
+    width: 50%;
+}
+
+.contact .contact-form textarea{
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid #8d8d8f;
+    overflow:hidden;
+    background: none;
+    width: 76%;
+    padding-bottom:75px;
+}
+
+.contact .contact-form .email-form{
+    width: 76%;
+    margin-left: 12%;
+}
+
+.contact .contact-link{
+    font-size: 25px;
+    margin-top: 17%;
+    display: block;
+    border: 2px solid #633621;
+    background-color: #89563b;
+    color: #FFF;
+    float: right;
+    margin-left: -28%;
+    margin-right: 12%;
+    padding: 5px 20px;
+}
+
+
+
+/** about us **/
+
+.about-us-info{
+    border: 1px solid #d2d3d7;
+    padding: 16px 0px ;
+    margin-bottom: 71px;
+    margin-top: 41px;
+}
+
+.about-us-info .about-us-header{
+    margin-top: 25px;
+}
+
+.about-us-info .about-us-disc{
+    font-size: 10px;
+    width: 67%;
+    font-weight: 500;
+    margin-left: 86px;
+}
+
+.about-us-info .about-us-img {
+    width: 50%;
+}
+
+.about-us-info .about-disc-info{
+    border: 1px solid #333649;
+    font-size: 15px;
+    padding: 1px 2px;
+    width: 75%;
+    margin-left: 20px;
+    margin-top: 24px;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+.about-us-info .about-disc-info::before{
+    position: absolute;
+    content: "";
+    border: 1px solid #333649;
+    height: 17px;
+    left: 50%;
+    bottom: 52px;
+    
+}
+
+/** our works **/
+
+.our-works{
+    margin-top: 60px;
+}
+
+.our-works .our-works-header{
+    color: #d37623;
+}
+
+.our-works .our-works-disc{
+    font-weight: 500;
+    font-size: 30px
+}
+
+.our-works img{
+    width: 100%
+}
+
+/** clients **/
+
+.clients .clients-img{
+    width: 100%;
+}
+
+/** footer **/
+
+footer{
+     background-color: #212e34;
+    min-height: 200px;
+    color: #FFF;
+    padding-top: 30px;
+}
+
+footer .footer-header{
+    font-size: 22px;
+    float: right;
+    color: #d37623;
+    text-decoration: underline;
+}
+
+footer .sitemap-list{
+    margin-top: 0;
+    margin-right: -2px;
+    float: right;
+}
+
+footer .sitemap-rightlist-info{
+    list-style: none;
+    padding: 0;
+    width: 108%;
+}
+
+footer .sitemap-leftlist-info{
+    list-style: none;
+    padding: 0
+}
+
+footer .vip-links{
+    margin-top: 29px;
+}
+
+footer .vip-links .vip-link{
+    border: 1px solid #FFF;
+    color: #FFF;
+    text-decoration: none;
+    padding: 5px 23px;
+    font-size: 11px;
+    font-weight: 500;
+    border-radius: 8px;
+}
+
+footer .vip-links .programing{
+    padding: 5px 46px;
+}
+
+footer .vip-links .camera-systems{
+    padding: 5px 6px;
+}
+
+footer .vip-links .vip-link-cont{
+    margin-top: 5px;
+    padding: 5px 0;
+        
+}
+
+footer .contact-link-info{
+    margin-top: 43px;
+    font-size: 8px;
+    font-weight: 500;
+    line-height: 0;
+
+}
+
+/** copyright **/
+
+.copyright{
+    background-color: #000;
+    min-height: 30px;
+    color: #FFF;
+    padding-top: 18px;
+    font-size: 12px;
+        
+}
+
+.copyright .social{
+    list-style: none;
+    float: right;
+    margin-left: 727px;
+    padding: 0
+}
+
+.copyright .social li{
+     float: left;
+    margin-right: 5px;
+    font-size: 14px;
+    border: 1px solid;
+    padding: 2px 6px;
+    cursor: pointer
+}
+
+
+/** start media query **/
+
+@media  (max-width:767px) {
+
+    
+    /** upper header **/
+
+        .upper-header{
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        .upper-header .logo-img{
+            float: right;
+            width: 192%;
+            margin-top: -25px;
+            margin-right: 10px;
+
+        }
+
+        .upper-header .social img{
+            width: 100%;
+            margin-right: -36px;
+        }
+    
+    /** start header **/
+
+        header{
+            min-height: 320px;
+        }
+    
+   /** header .navbar-light .navbar-toggler{
+        text-align: right
+    } **/
+
+        header .navbar{
+            min-height:30px;
+        }
+
+         .navbar .nav-item .nav-link{
+            color: #FFF;
+            float: right;
+        }
+
+        header .navbar .search{
+            width: 87%;
+        }
+      
+
+        .header-info{
+            margin-top: 40px;
+            margin-right: 10%;
+        }
+        .header-info .header-disc{
+            width: 56%;
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+
+        .header-info .header-link{
+            margin-top: 122px;
+            font-size: 12px;
+            margin-left: 52%;
+        }
+    
+    
+    
+    /** start products **/
+
+      
+
+        .products .products-list{
+         
+            margin-right: 109px;
+        }
+
+        
+
+    
+    
+    
+    /**  serviecs **/
+
+
+
+        .serviecs .serviecs-item{
+            width: 30%
+        }
+
+        .serviecs-info .serviecs-item-h{
+            font-size: 18px;
+        }
+
+    /** contact **/
+    
+         .contact{
+            min-height: 780px;
+        }
+
+        .contact .contact-header{
+            font-size: 40px;
+        }
+
+        .contact .contact-disc{
+            font-size: 18px;
+        }
+
+
+        .contact .contact-link{
+            font-size: 18px;
+            margin-top: 33%;
+            margin-left: -48%;
+           
+        }
+        
+    
+    /** footer **/
+
+
+        footer .footer-header{
+            font-size: 18px;
+        }
+
+        footer .sitemap-list{
+            width: 100%;
+            margin-right: -2px;
+        }
+
+
+        footer .contact-link-info{
+            font-size: 12px;
+            margin-bottom: 20px
+
+        }
+    
+    /** copyright **/
+
+        .copyright{
+            min-height: 5px;
+            font-size: 10px;
+            padding-left: 5px;
+
+        }
+
+        .copyright .social{
+            float:right;
+            margin-left: 117px;
+            
+           
+        }
+    
+        
+        .copyright .social li{
+
+            font-size: 12px;
+        }
+
+
+} 
+
+
+
+
+
+@media (min-width:768px){
+     
+      /** start header **/
+
+           
+    
+        .header-info .header-disc{
+            width: 42%;
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+
+        .header-info .header-link{
+            margin-top: 100px;
+            font-size: 17px;
+            margin-left: 67%;
+        }
+    
+    /** contact **/
+    
+        .contact{
+            min-height: 820px;
+        }
+
+        .contact .contact-header{
+            font-size: 35px;
+        }
+
+        .contact .contact-link{
+            font-size: 20px;
+            margin-top: 27%;
+            margin-left: -34%;
+           
+        }
+    
+    /** about us **/
+
+        .about-us-info .about-us-disc{
+            font-size: 16px;
+            margin-left: 111px;
+        }
+
+        .about-us-info .about-us-img {
+            width: 40%;
+        }
+
+        .about-us-info .about-disc-info{
+            margin-left: 86px;
+        }
+
+      
+    /** footer **/
+
+
+        footer .footer-header{
+            font-size: 18px;
+        }
+
+        footer .sitemap-list{
+            width: 100%;
+            margin-right: -7px;
+        }
+
+       
+
+
+        footer .contact-link-info{
+            font-size: 12px;
+            margin-bottom: 20px
+
+        }
+    
+    /** copyright **/
+
+        
+        .copyright .social{
+            margin-left: 583px;
+            margin-top: -19px;
+        }
+    
+} 
+
+@media  (min-width:992px){
+    
+    /** start header **/
+    
+      header .navbar .nav-item .nav-link{
+            font-size: 11px;
+        }     
+    
+     .header-info .header-link{
+            margin-left: 70%;
+        }
+    
+     .header-info .header-disc{
+            width: 35%;
+            margin-right: 0;
+        }
+
+    
+    
+    /** start products **/
+
+      
+
+        .products .products-list{
+         
+            margin-right: -5px;
+        }
+
+    
+    
+    
+    /** contact **/
+    
+
+        .contact .contact-link{
+            font-size: 20px;
+            margin-top: 21%;
+            margin-left: -34%;
+           
+        }
+    
+    /** about us **/
+
+        .about-us-info{
+            padding: 0;
+            margin-top: 13px;
+        }
+
+        .about-us-info .about-us-header{
+            margin-top: 25px;
+        }
+
+        .about-us-info .about-us-disc{
+            font-size: 9px;
+            width: 67%;
+            font-weight: 500;
+            margin-left: 63px;
+        }
+
+        .about-us-info .about-us-img {
+            width: 50%;
+        }
+
+        .about-us-info .about-disc-info{
+            font-size: 10px;
+            padding: 1px 2px;
+            width: 75%;
+            margin-left: 20px;
+            margin-top: 24px;
+            margin-bottom: 20px;
+            font-weight: 800;
+        }
+
+        .about-us-info .about-disc-info::before{
+            position: absolute;
+            content: "";
+            border: 1px solid #333649;
+            height: 17px;
+            left: 50%;
+            bottom: 45px;
+
+        }
+    
+        
+        /** footer **/
+    
+        footer .contact-link-info{
+                font-size: 7px;
+            }
+    
+
+        footer .sitemap-rightlist-info{
+            font-size: 14px;
+            line-height: 1.78;
+        }
+    
+    
+        /** copyright **/
+    
+         .copyright .social{
+            margin-left: 823px;
+        }
+
+    
+}
+
+
+
+@media  (min-width:1200px){
+    
+    /** start header **/
+    
+        header .navbar .nav-item .nav-link{
+            font-size: 15px;
+        }     
+        
+         .header-info .header-link{
+                    margin-top: 165px;
+                    font-size: 27px;
+                    margin-left: 68%;
+            }
+
+         .header-info .header-disc{
+                    width: 31%;
+                    font-size: 32px;
+                    margin-right: 42px;
+
+            }
+            
+    /** products **/
+    
+        .products .products-list {
+            margin-right: 53px;
+        }
+    
+     /** contact **/
+    
+
+        .contact .contact-link{
+           
+            margin-top: 17%;
+           
+           
+        }
+    
+     /** about us **/
+
+        .about-us-info{
+            padding: 0;
+            margin-top: 45px;
+        }
+    
+        .about-us-info .about-disc-info{
+            font-size: 13px;
+
+        }
+    
+         .about-us-info .about-disc-info::before{
+            bottom: 47px;
+        }
+    
+        .about-us-info .about-us-disc{
+            font-weight: 700;
+        }
+    
+    /** footer **/
+    
+      footer .contact-link-info{
+            font-size: 9px;
+        }
+    
+    
+    /** copyright **/
+
+        
+        .copyright .social{
+            margin-left: 727px;
+            margin-top: 0;
+        }
+    
+       
+
+    
+}
+
+
+
+
